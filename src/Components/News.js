@@ -59,7 +59,9 @@ const News=(props)=> {
         <h1 className="text-center" style={{ margin: "35px 0px" ,marginTop:"90px"}}>
           {`NewsMonkey-Top ${captilize(props.category)} Headlines`}{" "}
         </h1>
+        
         {loading && <Spinner />}
+        {articles && ( 
         <InfiniteScroll
           dataLength={articles.length}
           next={fetchMoreData}
@@ -84,6 +86,8 @@ const News=(props)=> {
           </div>
           </div>
         </InfiniteScroll>
+        )}
+       
         {/* <div className="container d-flex justify-content-between">
           <button
             disabled={this.state.page <= 1} type="button" className="btn btn-dark"onClick={this.handlePrevClick}>&larr; Previous
