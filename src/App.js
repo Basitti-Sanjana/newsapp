@@ -12,7 +12,7 @@ const App = ()=> {
   const [progress, setProgress] = useState(0)
     return (
       <div>
-        <HashRouter>
+       <HashRouter>
        <NavBar/> 
        <LoadingBar
         height={3}
