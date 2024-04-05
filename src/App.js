@@ -20,7 +20,7 @@ const App = ()=> {
         progress={progress}
         />
        <Routes>
-      <Route exact path="/" element={<News setProgress={setProgress} apikey={apikey}  key="general" pageSize={pageSize} country={"in"} category={"general"}/>}></Route> 
+      <Route exact path="/newsapp" element={<News setProgress={setProgress} apikey={apikey}  key="general" pageSize={pageSize} country={"in"} category={"general"}/>}></Route> 
       <Route exact path="/business" element={<News setProgress={setProgress} apikey={apikey} key="business" pageSize={pageSize} country={"in"} category={"business"}/>}></Route> 
       <Route exact path="/entertainment" element={<News setProgress={setProgress} apikey={apikey} key="entertainment" pageSize={pageSize} country={"in"} category={"entertainment"}/>}></Route> 
       <Route exact path="/general" element={<News setProgress={setProgress} apikey={apikey} key="general" pageSize={pageSize} country={"in"} category={"general"}/>}></Route> 
