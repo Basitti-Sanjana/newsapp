@@ -60,13 +60,13 @@ const News=(props)=> {
           {`NewsMonkey-Top ${captilize(props.category)} Headlines`}{" "}
         </h1>
         
-        {loading && <Spinner />}
+        {loading && <Spinner/>}
         {articles && ( 
         <InfiniteScroll
           dataLength={articles.length}
           next={fetchMoreData}
           hasMore={articles.length !== totalResults}
-          loader={loading && <Spinner />}
+          loader={loading && <Spinner/>}
         >
           <div className="container">
           <div className="row">
