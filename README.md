@@ -74,13 +74,14 @@ http://localhost:3000
 
 ## Configuration
 To configure the app, pass the following props to the News component:
-![image alt](https://github.com/Basitti-Sanjana/NewsApp/blob/806cd09f6d0b347fbfb67230847219cbb41ec611/Configure.PNG)
+![image alt](https://github.com/Basitti-Sanjana/newsapp/blob/48207e86355c73076a5fce5cbd23fe1169ef9aeb/Configure.PNG)
+
 
 ## Folder Structure
-![image alt](https://github.com/Basitti-Sanjana/NewsApp/blob/552cdd789a72dc430e3173860f7ffc197eabfd56/FolderStructure.PNG)
+![image alt](https://github.com/Basitti-Sanjana/newsapp/blob/48207e86355c73076a5fce5cbd23fe1169ef9aeb/FolderStructure.PNG)
 
 ## Screenshots
-![image alt](https://github.com/Basitti-Sanjana/NewsApp/blob/806cd09f6d0b347fbfb67230847219cbb41ec611/screenshot.PNG)
+![image alt](https://github.com/Basitti-Sanjana/newsapp/blob/48207e86355c73076a5fce5cbd23fe1169ef9aeb/screenshot.PNG)
 
 ## How to Use
 1. Navigate through the categories using the navigation bar.
